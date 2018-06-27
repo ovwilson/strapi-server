@@ -1,0 +1,19 @@
+{
+  "modelAttributes": {
+    "attributes": {
+      "Id": {
+        "appearance": ""
+      }
+    }
+  },
+  "modelattributes": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "type": {
+        "appearance": ""
+      }
+    }
+  }
+}

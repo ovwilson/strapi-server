@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "modelattributes",
+  "info": {
+    "name": "modelattributes",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Id": {
+      "unique": true,
+      "type": "integer",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration"
+    }
+  }
+}

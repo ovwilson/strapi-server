@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/modelattributes",
+      "handler": "Modelattributes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/modelattributes/count",
+      "handler": "Modelattributes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/modelattributes/:_id",
+      "handler": "Modelattributes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/modelattributes",
+      "handler": "Modelattributes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/modelattributes/:_id",
+      "handler": "Modelattributes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/modelattributes/:_id",
+      "handler": "Modelattributes.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
